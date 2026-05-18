@@ -1,4 +1,5 @@
-﻿from main import sumar
+﻿import pytest
+from main import sumar
 
-def test_sumar_correcto():
+def test_suma():
     assert sumar(2, 3) == 5
